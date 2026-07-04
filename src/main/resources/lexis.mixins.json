@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.lexis.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClientPlayerEntityMixin",
+    "KeyboardMixin",
+    "InGameHudMixin",
+    "ScreenMixin"
+
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

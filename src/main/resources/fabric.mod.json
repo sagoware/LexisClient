@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "lexis",
+  "version": "1.0.0",
+  "name": "Lexis",
+  "description": "Lexis Utility Client - 1.21.4",
+  "authors": [
+    "Umut Mirac"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/lexis/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lexis.Lexis"
+    ]
+  },
+  "mixins": [
+    "lexis.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
